@@ -1,0 +1,47 @@
+.markdown-previewer {
+    display: flex;
+    height: 100vh;
+
+     .editor {
+        flex: 1;
+        padding: 20px;
+        background-color: #990c86ce;
+
+          textarea {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            border: none;
+            outline: none;
+            font-size: 16px;
+          }
+     }
+
+     .previewer {
+        flex: 1;
+        padding: 20px;
+        background-color: #e2e1e1;
+        overflow-y: auto;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 0;
+        }
+
+        a {
+            color: #ff0000;
+            text-decoration: dotted;
+        }
+
+
+        pre {
+             background-color: cadetblue;
+             padding: 10px;
+             overflow-x: auto;
+        }
+     }
+}
